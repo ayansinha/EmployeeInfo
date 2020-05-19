@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProviders
 import kotlinx.android.synthetic.main.activity_add_employee.*
-import org.dtransform.techm.data.model.employeeadd.EmployeeAddCallBack
+import org.techm.employeeinfo.data.model.employeeadd.EmployeeAddCallBack
 import org.techm.employeeinfo.R
 import org.techm.employeeinfo.databinding.ActivityAddEmployeeBinding
 import org.techm.employeeinfo.ui.employee.viewmodel.EmployeeAddViewModel

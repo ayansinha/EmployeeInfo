@@ -1,8 +1,9 @@
 package org.techm.employeeinfo.data.model.employeedelete
 
 /**
- * Created by ayan.sinha on 19/05/20.
+ * @class{EmployeeDeleteData}
  */
+
 
 data class EmployeeDeleteData(
     var status: String,

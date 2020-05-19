@@ -12,7 +12,7 @@ import org.techm.employeeinfo.data.model.employeedisplay.EmployeeDataModel
 import timber.log.Timber
 
 /**
- *
+ *@class{EmployeeListViewModel}
  */
 
 class EmployeeListViewModel: ViewModel() {

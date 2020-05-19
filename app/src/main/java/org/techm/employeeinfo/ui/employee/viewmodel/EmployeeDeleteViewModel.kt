@@ -11,7 +11,7 @@ import org.dtransform.techm.data.network.ServiceBuilder
 import org.techm.employeeinfo.util.isConnection
 
 /**
- *
+ *@class{EmployeeDeleteViewModel}
  */
 
 class EmployeeDeleteViewModel(private  var context: Context): ViewModel() {

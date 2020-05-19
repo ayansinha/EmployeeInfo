@@ -8,7 +8,7 @@ import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.dtransform.techm.data.model.employeeadd.EmployeeAddCallBack
+import org.techm.employeeinfo.data.model.employeeadd.EmployeeAddCallBack
 import org.dtransform.techm.data.network.ServiceBuilder
 import org.techm.employeeinfo.data.model.employeeadd.EmployeeAddInfo
 import org.techm.employeeinfo.util.Constants

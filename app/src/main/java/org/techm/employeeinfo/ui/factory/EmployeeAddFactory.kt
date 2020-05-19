@@ -2,7 +2,7 @@ package org.techm.employeeinfo.ui.factory
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import org.dtransform.techm.data.model.employeeadd.EmployeeAddCallBack
+import org.techm.employeeinfo.data.model.employeeadd.EmployeeAddCallBack
 import org.techm.employeeinfo.ui.employee.viewmodel.EmployeeAddViewModel
 
 /**

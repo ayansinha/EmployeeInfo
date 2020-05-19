@@ -55,7 +55,7 @@ class EmployeeListActivity : AppCompatActivity(), EmployeeListAdapter.OnItemClic
                     viewHolder: RecyclerView.ViewHolder,
                     target: RecyclerView.ViewHolder
                 ): Boolean {
-                    return false
+                    return true
                 }
 
                 override fun onSwiped(viewHolder: RecyclerView.ViewHolder, position: Int) {

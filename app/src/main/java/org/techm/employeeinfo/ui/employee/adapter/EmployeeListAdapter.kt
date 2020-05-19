@@ -3,6 +3,7 @@ package org.techm.employeeinfo.ui.employee.adapter
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.view.animation.AnimationUtils
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import org.techm.employeeinfo.R
@@ -29,6 +30,7 @@ class EmployeeListAdapter(private var dataModelList: ArrayList<DataModel>, var c
 
     override fun onBindViewHolder(holder: EmployeeDataViewHolder, position: Int) {
         holder.employeeItemEmployeeBinding.employee = dataModelList[position]
+        holder.employeeItemEmployeeBinding.cardViewContainer.animation = AnimationUtils.loadAnimation(context , R.anim.fade_scale_animation)
     }
 
     fun removeItem(position: Int) {

@@ -1,8 +1,8 @@
-package org.dtransform.techm.data.model.employeeadd
+package org.techm.employeeinfo.data.model.employeeadd
 
 
 /**
- *
+ * @class{EmployeeAddCallBack}
  */
 
 interface EmployeeAddCallBack {
